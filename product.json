@@ -1,0 +1,373 @@
+[
+    {
+        "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/d71709e586664d989c56f33b0dad9db9_9366/pomazor-shoes.jpg",
+        "rate" : "₹1 440.00",
+        "orginalPrice" : "₹3 599.00 Original price",
+        "discount" : "-60%",
+        "productName" : "POMAZOR SHOES",
+        "info" : "Men Running",
+        "color" : ""
+    },
+
+    {
+        "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8271eef9e1d44116837c2a9b3c07be1d_9366/astoundrun-shoes.jpg",
+        "rate" : "₹1 899.50",
+        "orginalPrice" : "₹3 799.00 Original price",
+        "discount": "-50%",
+        "productName": "ASTOUNDRUN ",
+        "info": "Men Running",
+        "color" : "3 colours"
+    },
+
+    {
+        "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/93e7395acff3446cb985363e29df63a7_9366/astoundrun-shoes.jpg",
+        "rate" :"₹1 899.50",
+        "orginalPrice":"₹3 799.00 Original price",
+        "discount":"-50%",
+        "productName":"ASTOUNDRUN SHOES",
+        "info" : "Men Running",
+        "color" :"3 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e6b8fe9eff91400db56c12d3c2bed6f0_9366/pomazor-shoes.jpg",
+        "rate": "₹1 799.50",
+        "orginalPrice": "₹3 599.00 Original price",
+        "discount":"-50%",
+        "productName":"POMAZOR SHOES",
+        "info":"Men Running",
+        "color":"2 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/ebeaef5efa2142509769d6fc555728be_9366/fleecewalk-shoes.jpg",
+        "rate":"₹1 899.50",
+        "orginalPrice":"₹3 799.00 Original price",
+        "discount":"-50%",
+        "productName":"FLEECEWALK SHOES",
+        "info":"Men Running",
+        "color":"4 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/1c900f5922fc49799c61adbe005a1b71_9366/adi-zoom-shoes.jpg",
+        "rate":"₹1 899.50",
+        "orginalPrice":"₹3 799.00 Original price",
+        "discount":"-50%",
+        "productName":"Adi Zoom Shoes",
+        "info":"Men Running",
+        "color":""
+    },
+
+    {
+        "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/a06aff55d8314232b81ec4d969e0c22c_9366/fleecewalk-shoes.jpg",
+        "rate": "₹1 899.50",
+        "orginalPrice":"₹3 799.00 Original price",
+        "discount":"-50%",
+        "productName":"FLEECEWALK SHOES",
+        "info":"Men Running",
+        "color":"4 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/dd1de5e3b27445b19f7ff65c6e874ddb_9366/base-loud-shoes.jpg",
+        "rate":"₹1 799.50",
+        "orginalPrice":"₹3 599.00 Original price",
+        "discount":"-50%",
+        "productName": "BASE-LOUD SHOES",
+        "info":"Men Running",
+        "color":"3 colours"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e9048d63ec824876899daf8f00b5f120_9366/gambito-shoes.jpg",
+        "rate":"₹1 720.00",
+        "orginalPrice":"₹4 299.00 Original price",
+        "discount":"-60%",
+        "productName": "GAMBITO SHOES",
+        "info":"Men Running",
+        "color":"2 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/060e7f1151a84d878f05f06762300e45_9366/fluento-shoes.jpg",
+        "rate":"₹1 799.50",
+        "orginalPrice":"₹3 599.00 Original price",
+        "discount":"-50%",
+        "productName":"FLUENTO SHOES",
+        "info":"Men Running",
+        "color":"3 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f0f24802c0944aae9dfe324e6da022b4_9366/restound-shoes.jpg",
+        "rate": "₹1 799.50",
+        "orginalPrice":"₹3 599.00 Original price",
+        "discount":"-50%",
+        "productName":"RESTOUND SHOES",
+        "info":"Men Running",
+        "color":"3 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f5341a93504e4f97ae788955a64da50a_9366/chase-pro-shoes.jpg",
+        "rate":"₹1 600.00",
+        "orginalPrice":"₹3 999.00 Original price",
+        "discount":"-60%",
+        "productName":"CHASE PRO SHOES",
+        "info":"Women Running",
+        "color":"2 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/6508b90b80e547b5b2e36a8965ce23d9_9366/ultra-response-shoes.jpg",
+        "rate":"₹1 999.50",
+        "orginalPrice":"₹3 999.00 Original price",
+        "discount":"-50%",
+        "productName":"ULTRA RESPONSE SHOES",
+        "info":"Men Running",
+        "color":"2 colours"
+    },
+
+
+
+
+
+
+
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8411491f31934dc2bafe0813eee5abe4_9366/plodar-m.jpg",
+        "rate":"₹1 649.50",
+        "orginalPrice":"₹3 299.00 Original price",
+        "discount":"-50%",
+        "productName":"Plodar M",
+        "info":"Men Running",
+        "color":"2 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/10b85cb794644567a880237a7e164e19_9366/widewalk-shoes.jpg",
+        "rate": "₹1 999.50",
+        "orginalPrice":"₹3 999.00 Original price",
+        "discount":"-50%",
+        "productName":"WIDEWALK SHOES",
+        "info":"Men Running",
+        "color":"3 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/352f142ae09e4ab5a78ccb219baa41cc_9366/fuseo-shoes.jpg",
+        "rate":"₹1 649.50",
+        "orginalPrice":"₹3 299.00 Original price",
+        "discount":"-50%",
+        "productName":"Fuseo Shoes",
+        "info":"Men Running",
+        "color":"3 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/8a192af713824981864d9aa4105091a4_9366/flexpace-shoes.jpg",
+        "rate":"₹1 899.50",
+        "orginalPrice":"₹3 799.00 Original price",
+        "discount":"-50%",
+        "productName":"FLEXPACE SHOES",
+        "info":"Men Running",
+        "color":"2 colours"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/36c5e56b2070468e9853af0e00a35c0d_9366/wind-raiser-shoes.jpg",
+        "rate":"₹1 999.50",
+        "orginalPrice":"₹3 999.00 Original price",
+        "discount":"-50%",
+        "productName":"WIND RAISER SHOES",
+        "info":"Men Running",
+        "color":""
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/6f15fabbcee347598726adb9013629b9_9366/adi-chic-shoes.jpg",
+        "rate":"₹1 649.50",
+        "orginalPrice":"₹3 299.00 Original price",
+        "discount":"-50%",
+        "productName":"ADI CHIC SHOES",
+        "info":"Men Running",
+        "color":"2 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b956546a1f9545cc901d9b0a666587f7_9366/fuseo-shoes.jpg",
+        "rate":"₹1 649.50",
+        "orginalPrice":"₹3 299.00 Original price",
+        "discount":"-50%",
+        "productName":"Fuseo Shoes",
+        "info":"Men Running",
+        "color":"3 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f0f24802c0944aae9dfe324e6da022b4_9366/restound-shoes.jpg",
+        "rate":"₹1 440.00",
+        "orginalPrice":"₹3 599.00 Original price",
+        "discount":"-60%",
+        "productName":"RESTOUND SHOES",
+        "info":"Men Running",
+        "color":"3 colours"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/48e977d2a2304225b4a65dcc39db6df2_9366/restound-shoes.jpg",
+        "rate":"₹1 799.50",
+        "orginalPrice":"₹3 599.00 Original price",
+        "discount":"-50%",
+        "productName":"RESTOUND SHOES",
+        "info":"Men Running",
+        "color":"3 colours"
+    }, 
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d50c44e5bf74b22b7611aa8e68a5de5_9366/peprun-shoes.jpg",
+        "rate":"₹1 440.00",
+        "orginalPrice":"₹3 599.00 Original price",
+        "discount":"-60%",
+        "productName":"PEPRUN SHOE",
+        "info":"Men Running",
+        "color":"2 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/47c3a25f4d304e12a7f70c14c51023ad_9366/fuseo-shoes.jpg",
+        "rate":"₹1 649.50",
+        "orginalPrice":"₹3 299.00 Original price",
+        "discount":"-50%",
+        "productName":"Fuseo Shoes",
+        "info":"Men Running",
+        "color":"3 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/1d37f8d9190947a6b458afb200a8960c_9366/volant-run-shoes.jpg",
+        "rate":"₹1 920.00",
+        "orginalPrice":"₹4 799.00 Original price",
+        "discount":"-60%",
+        "productName":"VOLANT RUN SHOES",
+        "info":"Men Running",
+        "color":""
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/1d1ac6d6fd3045f7ad33ae8f0136b595_9366/jaysaw-reflective-shoes.jpg",
+        "rate":"₹1 920.00",
+        "orginalPrice":"₹4 799.00 Original price",
+        "discount":"-60%",
+        "productName":"JAYSAW REFLECTIVE SHOES",
+        "info":"Men Running",
+        "color":"2 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/9ab6cfa0885147e88d96a7242973cca3_9366/fleecewalk-shoes.jpg",
+        "rate":"₹1 899.50",
+        "orginalPrice":"₹3 799.00 Original price",
+        "discount":"-50%",
+        "productName":"FLEECEWALK SHOES",
+        "info":"Men Running",
+        "color":"4 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/358ed432218b44ed95a062de832a6e69_9366/cush-walk-shoes.jpg",
+        "rate":"₹1 799.50",
+        "orginalPrice":"₹3 599.00 Original price",
+        "discount":"-50%",
+        "productName":"MERAGE SHOES",
+        "info":"Men Running",
+        "color":""
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/084335cdfe1145a288d9adce00637d97_9366/running-magnificeo-shoes.jpg",
+        "rate":"₹1 999.50",
+        "orginalPrice":"₹3 999.00 Original price",
+        "discount":"-50%",
+        "productName":"RUNNING MAGNIFICEO SHOES",
+        "info":"Men Running",
+        "color":"2 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/4b1468bfd67e432ea7e0c1c31d6bd838_9366/rayrun-shoes.jpg",
+        "rate":"₹1 440.00",
+        "orginalPrice":"₹3 599.00 Original price",
+        "discount":"-60%",
+        "productName":"RAYRUN SHOES",
+        "info":"Women Running",
+        "color":""
+    }, 
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac7cff8f560a4e448258af5f008f496e_9366/breezewalk-shoes.jpg",
+        "rate":"₹1 920.00",
+        "orginalPrice":"₹4 799.00 Original price",
+        "discount":"-60%",
+        "productName":"BREEZEWALK SHOES",
+        "info":"Women Walking",
+        "color":"3 colours"
+    },
+
+    {
+        "image":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/1d37f8d9190947a6b458afb200a8960c_9366/volant-run-shoes.jpg",
+        "rate":"₹1 799.50",
+        "orginalPrice":"₹3 599.00 Original price",
+        "discount":"-50%",
+        "productName":"BREEZEWALK SHOES",
+        "info":"Women Walking",
+        "color":"3 colours"
+    }
+]

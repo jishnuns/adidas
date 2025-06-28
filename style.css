@@ -1,0 +1,1791 @@
+@font-face {
+    font-family: adineuePRO;
+    src: url(fonts/adineuePRO-Bold.woff2);
+}
+
+@font-face {
+    font-family: AdihausDIN-regular;
+    src: url(fonts/AdihausDIN-Regular.woff2);
+}
+
+@font-face {
+    font-family: AdihausDIN-Bold;
+    src: url(fonts/AdihausDIN-Bold.woff2);
+}
+
+@font-face {
+    font-family: adidasFG-bold;
+    src: url(fonts/adidasFG-CompressedBold.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.ad-header-top {
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    height: 45px;
+    color: #fff;
+}
+
+.ad-bar-header {
+    width: 100%;
+    height: 45px;
+    padding: 0;
+}
+
+.ad-head-container {
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.ad-header-bottom {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 7px 0;
+}
+
+.ad-mobile-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.ad-toggle {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+
+.ad-wishlist {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+
+.adidas-header {
+    position: relative;
+    top: 8px;
+    width: 50px;
+    height: 50Px;
+    margin: 0 auto;
+    transform: translateX(4px);
+}
+
+.ad-other-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ad-user-button {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+
+.ad-notification {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 16px;
+    background-color: #ffd200;
+}
+
+.ad-layout-content {
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+    max-width: 100vw;
+    position: relative;
+    padding: 15px;
+    padding-top: 11px;
+    padding-bottom: 0px;
+}
+
+
+.ad-heading {
+    display: flex;
+    margin: 5px 0 15px;
+    align-items: center;
+    min-height: 30px;
+    justify-content: space-between;
+}
+
+.ad-content-text {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-family: adineuePRO;
+}
+
+.ad-count {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 16px;
+    color: #767677;
+    margin: 0px 3px;
+    font-family: AdihausDIN-regular;
+}
+
+.ad-filter {
+    margin-right: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.line-space {
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eceff1;
+}
+
+.ad-product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+}
+
+.ad-all-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.ad-product-pic {
+    background-color: #eceff1;
+    aspect-ratio: 1;
+}
+
+.product-img {
+    width: 100%;
+    border: none;
+}
+
+.ad-product-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-price-component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.ad-main-price {
+    font-family: AdihausDIN-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    gap: 4px;
+    display: flex;
+}
+
+.price-add {
+    color: #e32b2b;
+}
+
+.ad-price-history {
+    font-family: AdihausDIN-regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #767677;
+}
+
+.orginal-price {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ad-discount {
+    padding-left: 4px;
+    color: #e32b2b;
+}
+
+.product-name {
+    margin-bottom: 2px;
+    font-family: AdihausDIN-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.product-info {
+    font-family: AdihausDIN-regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #767677;
+}
+
+.free-space {
+    min-height: 20px;
+}
+
+.ad-product-color {
+    color: #767677;
+    font-family: AdihausDIN-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ad-center-product {
+    margin: 15px 0px;
+    grid-column: 1 / -1;
+}
+
+.ad-product-cen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.ad-center-img {
+    aspect-ratio: 1;
+    display: block;
+    width: 100%;
+    border: none;
+    margin: auto;
+}
+
+
+.ad-product-rating {
+    display: flex;
+    align-items: baseline;
+}
+
+.ad-rating-stars {
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+.icon-star {
+    margin-right: 2px;
+}
+
+.ad-rating-count {
+    font-family: AdihausDIN-regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ad-footer-container {
+    padding: 15px;
+    padding-top: 0;
+}
+
+.ad-page-indicator {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.ad-page-con {
+    align-self: center;
+    font-family: AdihausDIN-Regular;
+    font-size: 14px;
+}
+
+.ad-line {
+    align-self: center;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    background-color: #eceff1;
+    position: relative;
+}
+
+.ad-black-line {
+    height: 100%;
+    background-color: #000;
+    width: 80px;
+}
+
+.ad-next {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.ad-pagenation-next {
+    display: flex;
+    flex: 1 1;
+}
+
+.ad-next-button {
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
+    height: 50px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-next-cont {
+    font-family: AdihausDIN-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.ad-recently-view {
+    margin-bottom: 80px;
+}
+
+.ad-view-context {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.ad-text-head {
+    font-family: adidasFG-bold;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 32px;
+}
+
+.ad-viewed-content {
+    display: flex;
+    gap: 7px;
+    margin: 0;
+    /* width: 100%; */
+    list-style: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+.ad-viewed-content::-webkit-scrollbar {
+    display: none;
+}
+
+.section-view {
+    width: 100%;
+    height: auto;
+}
+
+.view-img {
+    width: 100%;
+}
+
+.view-li {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc((100% - 10px) / 2);
+}
+
+/*  */
+
+.view-content {
+    padding: 8px 8px 16px;
+}
+
+.product-name-view {
+    width: 100%;
+    margin-bottom: 4px;
+    font-family: AdihausDIN-Regular;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+.ad-footer-heading {
+    margin: 20px 0 15px 0;
+    font-family: adineuePRO;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.ad-product-links {
+    list-style: none;
+    column-count: 3;
+    margin-bottom: 40px;
+}
+
+.link-product {
+    display: block;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: AdihausDIN-regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+.ad-back-to-button {
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.text-back-to {
+    font-family: AdihausDIN-regular;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.ad-account-log {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: AdihausDIN-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+}
+
+.ad-news-letter {
+    padding: 40px;
+    text-align: center;
+    background-color: #007bc6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    column-gap: 40px;
+}
+
+.news-letter-title {
+    font-family: adidasFG-bold;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.ad-news-signin {
+    background-color:#fff;
+    border: #fff;
+    color: #000;
+    height: 50px;
+    font-family: adidasFG-bold;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+  
+.icon-right-arrow {
+    margin-left: 15px;
+}
+
+.footer-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px 0;
+    background-color: #000;
+    text-align: center;
+    overflow: hidden;
+}
+
+.footer-mobile-content {
+    padding: 10px 15px;
+    display: block;
+}
+
+.cont-foo {
+    font-family: AdihausDIN-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #fff;
+}
+
+.ad-bottom-footer {
+    border-top: 1px solid #767677;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.ad-legal-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.legal-menu-li {
+    display: inline-block;
+    /* width: 40.5%; */
+    margin: 15px 0;
+    padding: 0 15px;
+    color: #d3d7da;
+    font-family: AdihausDIN-Regular;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.ad-footer-copyright {
+    max-width: 1010px;
+    align-self: center;
+    padding: 20px 15px 0 15px;
+    font-family: AdihausDIN-Regular;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #d3d7da;
+    text-align: center;
+}
+
+.footer-mobile-content-one {
+    font-family: AdihausDIN-Bold;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column-reverse;
+    font-weight: 700;
+}
+
+
+
+/* slide bar */
+.ad-slide-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.ad-slide-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eceff1;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.ad-icon {
+    position: relative;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.ad-exit-button {
+    position: absolute;
+    display: flex;
+    top: 12px;
+    right: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+}
+
+.ad-slider-menu {
+    padding: 10px 0;
+    margin-top: 60px;
+    height: 741px;
+
+}
+
+.ad-content-slider {
+    color: #e32b2b;
+    font-weight: 700;
+    padding: 0 30px;
+    letter-spacing: 2px;
+    font-family: AdihausDIN-Bold;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.ad-slider-discount {
+    padding: 0 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    font-family: AdihausDIN-Bold;
+    font-size: 18px;
+    line-height: 24px;
+    height: 45px;
+    align-items: center;
+}
+
+.ad-slider-button {
+    padding: 0 30px;
+    letter-spacing: 2px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    font-family: AdihausDIN-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #fff;
+    border: none;
+}
+
+.icon-right {
+    margin-top: 6px;
+    width: 18px;
+    height: 18px;
+}
+
+.two-different {
+    font-family: AdihausDIN-Bold;
+}
+
+.slider-line {
+    margin: 10px 0;
+    border-bottom: 1px solid #eceff1;
+}
+
+.slider-customer-service {
+    padding: 10px 30px;
+    display: flex;
+    font-family: AdihausDIN-Regular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.slider-footer {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    padding: 0 30px;
+    border-top: 1px solid #eceff1;
+    overflow: hidden;
+}
+
+.ad-country {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: AdihausDIN-Regular;
+
+}
+
+.icon-india {
+    width: 20px;
+    margin-right: 15px;
+    outline: solid 1px #000;
+}
+
+.icon-right-arrow {
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center
+}
+
+
+.ad-filter-slider {
+    display: none;
+}
+
+.ad-filter-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 100;
+
+    transform: translateX(0);
+}
+
+.ad-filter-panel-header {
+    top: 0;
+    position: sticky;
+    height: 57px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eceff1;
+    overflow: hidden;
+    z-index: 3;
+    padding: 0 20px;
+}
+
+.filter-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: AdihausDIN-Bold;
+}
+
+.filter-clear-button {
+    color: #767677;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 40px 0 auto;
+    background-color: transparent;
+    padding-left: 1px;
+    padding-right: 1px;
+    vertical-align: bottom;
+    font-family: AdihausDIN-Regular;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: underline;
+}
+
+.filter-close {
+    position: absolute;
+    right: 23px;
+    top: 52.5%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.filter-section-slider {
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-applied-filter-head {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    font-family: AdihausDIN-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.ad-applied-filter {
+    border-bottom: 1px solid #eceff1;
+}
+
+.ad-applied-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 20px 20px;
+}
+
+.items-applied {
+    height: 35px;
+    margin: 0 10px 10px 0;
+    background-color: #eceff1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+
+.ad-applied-close {
+    display: flex;
+    width: 24px;
+    justify-content: center;
+}
+
+.close-app {
+    margin-top: 3px;
+    max-height: 20px;
+    display: inline-block;
+    height: 24px;
+} 
+
+
+.app-text {
+    margin: 0 0 0 5px;
+    font-family: AdihausDIN-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 22px;
+}
+
+.ad-top-icon {
+    padding-bottom: 5.5px;
+}
+
+.ad-filter-sort-one {
+    border-left: 4px solid transparent;
+    height: 50px;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: AdihausDin-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.other {
+    position: relative;
+    border-bottom: 1px solid #eceff1;
+
+}
+
+.ad-sorted-li {
+    padding-left: 19px;
+    border-left: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eceff1;
+}
+
+.ad-sorted-li-content {
+    min-height: 50px;
+    max-height: 70px;
+    width: 100%;
+    align-content: center;
+
+    font-family: AdihausDIN-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.ad-filter-footer {
+    background-color: #fff;
+    border-top: 1px solid #eceff1;
+    padding: 25px;
+    z-index: 2;
+}
+
+.apply-main-button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    font-family: AdihausDIN-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    border: none;
+    text-align: left;
+    position: relative;
+    padding: 0 15px;
+}
+
+.filter-content{
+    width: 100%;
+    line-height: 48px;
+    display: flex;
+    gap: 5px;
+    position: relative;
+    padding: 0 0 0 20px;
+    align-items: center;
+
+    font-family: AdihausDIN-Regular;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.filter-item-count {
+    opacity: .35;
+    margin-left: 5px;
+}
+
+.box-ad {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #767677;
+    background-color: #fff;
+    box-sizing: border-box;
+    color: transparent;
+    justify-content: center;
+}
+
+.size-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    margin: 15px 0;
+    padding: 0 15px;
+
+}
+
+.size-count {
+    list-style: none;
+    margin: 0 -1px -1px 0;
+    border: 1px solid #eceff1;
+}
+
+.ad-size-count {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 10px; */
+    font-family: AdihausDIN-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+.colour-option {
+    padding: 0 20px 0 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.color-option-li {
+    width: auto;
+    padding-right: 12px;
+}
+
+.filter-color {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    /* background-color: #00c; */
+}
+
+.color-app {
+    background-color: #00c;
+    width: 24px;
+    height: 27px;
+}
+
+.color-app-one {
+    background-color: #808080;
+    width: 24px;
+    height: 27px;
+}
+
+.color-app-two{
+    background-color: #000000;
+    width: 24px;
+    height: 27px;
+}
+
+.color-app-three{
+    background-color: #33cc00;
+    width:24px;
+    height: 27px;
+}
+
+.color-app-four {
+    background-color:#ffffff;
+    width: 24px;
+    height: 27px;
+    border: 1px solid;
+}
+
+.color-app-five{
+    background-color: #996600;
+    width: 24px;
+    height: 27px;
+}
+
+.color-app-six {
+    background-color: #00ffcc;
+    width: 24px;
+    height: 27px;
+}
+
+.color-app-seven {
+    background-color: #ff66cc;
+    width: 24px;
+    height: 27px;
+}
+
+.color-app-eight {
+    background-color: #ff0000;
+    width: 24px;
+    height: 24px;
+}
+
+.color-app-nine {
+    background-color: #0281f8;
+    width: 24px;
+    height: 27px;
+}
+
+.color-app-ten {
+    background-color: #fff200;
+    width: 24px;
+    height: 27px;
+}
+
+.price-slider {
+    margin: 0 25px 10px 20px;
+}
+
+.amount-ad {
+    margin-top: 10px;
+    text-align: center;
+    font-family: AdihausDIN-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.slider-line-amount {
+    padding-bottom: 27px;
+}
+
+.slider-wrapper {
+    margin-top: 15px;
+    padding: 0 11px;
+    position: relative;
+}
+
+.line-left {
+    background-color: #767677;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 11px;
+}
+
+.line-right {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 11px;
+}
+
+.line-marker {
+    border-radius: 0;
+    height: 14px;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+}
+
+.line-rail {
+    background-color: #070707;
+    border-radius: 0;
+    height: 2px;
+    margin: 1px;
+}
+
+.line-first-ball {
+    left: 22.7273%;
+    right: auto;
+    height: 20px;
+    margin-top: -13px;
+    width: 20px;
+    border: 2px solid #767677;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.second-header-container {
+    display: none;
+}
+
+.ad-filter-text {
+    display: none;
+}
+
+.second-header-back {
+    display: none;
+}
+
+.sec-footer {
+    display: none;
+}
+
+.ad-items-li-two {
+    display: none;
+}
+
+.ad-sort-items-visible {
+    display: block;
+}
+
+.ad-sort-items {
+    display: none;
+}
+
+.filter-options-one {
+    display: none;
+}
+
+.filter-options-one-vis {
+    display: block;
+}
+
+.filter-options-two {
+    display: none;
+}
+
+.filter-options-two-vis {
+    display: block;
+}
+
+.ad-filter-size {
+    display: none;
+}
+
+.ad-filter-size-vis {
+    display: block;
+}
+.main-colour-options {
+    display: none;
+}
+
+.main-colour-options-vis {
+    display: block;
+}
+
+.filter-options-three {
+    display: none;
+}
+
+.filter-options-three-vis {
+    display: block;
+}
+
+.filter-options-four {
+    display: none;
+}
+
+.filter-options-four-vis {
+    display: block;
+}
+
+.filter-options-five {
+    display: none;
+}
+
+.filter-options-five-sport {
+    display: block;
+}
+
+.filter-options-brand {
+    display: none;
+}
+
+.filter-options-brand-visi {
+    display: block;
+}
+
+.filter-options-collection {
+    display: none;
+}
+
+.filter-options-collection-visi {
+    display: block;
+}
+
+.price-details {
+    display: none;
+}
+
+.price-details-visible {
+    display: block;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .ad-content-text {
+        font-size: 30px;
+    }
+
+    .ad-heading {
+        margin: 5px 0 20px;
+    }
+
+    .ad-product {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 15px;
+        gap: 8px;
+    }
+
+    .ad-next-button {
+        width: 150px;
+    }
+
+    .ad-product-links {
+        column-count: 6;
+    }
+
+    .ad-pagenation-next {
+        justify-content: center;
+    }
+
+    .ad-line {
+        width: 360px;
+    }
+
+    .adidas-header {
+        transform: translateX(0);
+    }
+
+    .view-li {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: calc((100% - 5 * 2px) / 6 * 2);
+    }
+
+    .ad-layout-content {
+        padding-top: 12px;
+    }
+}
+
+@media screen and (min-width:960px) {
+    .ad-filter-panel {
+        width: 30%;
+    }
+    .ad-header-top {
+        height: 40px;
+    }
+
+    .ad-bar-header{
+        height: 40px;
+    }
+    
+    .ad-head-container {
+        display: none;
+    }
+
+    .second-header-container {
+        padding: 0 20px;
+        border-bottom: 1px solid #eceff1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-header {
+        display: block;
+        width: max-content;
+        align-self:self-end;
+    }
+
+    .nav-header-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 32px;
+        list-style: none;
+    }
+
+    .nav-li {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        padding: 0 10px;
+    }
+
+    .nav-customerinfo {
+        font-family: AdihausDIN-Regular;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .bottom-nav {
+        padding: 0;
+        grid-template-columns: 1fr 5fr 2fr;
+        display: grid;
+        /* align-items: center; */
+    }
+
+    .adidas-logo {
+        height: auto;
+        width: 60px;
+        margin: 0;
+        transform: translateY(-8px);
+    }
+
+    .ad-items {
+        display: flex;
+        margin: 0 10px;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: 47px;
+        list-style: none;
+        transform: translateY(1px);
+    }
+
+    .icon-user {
+        transform: translateY(2px);
+    }
+
+    .ad-items-li {
+        display: flex;
+        position: relative;
+        height: 100%;
+        padding: 0 10px;
+        justify-content: center;
+        align-items: center;
+        font-family: AdihausDIN-Regular;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 1.87px;
+    }
+
+    .ad-items-li-one {
+        display: flex;
+        position: relative;
+        height: 100%;
+        padding: 0 10px;
+        justify-content: center;
+        align-items: center;
+        font-family: AdihausDIN-Bold;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1.87px;
+    }
+
+    .menus-second-head {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .ad-search-menu {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        flex-grow: 1;
+        position: relative;
+    }
+
+    .search-placeholder {
+        border: solid thin #eceff1;
+        padding: 0 35px 0 10px;
+        background-color: #eceff1;
+        height: 32px;
+        font-family: AdihausDIN-Regular;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #000;
+        z-index: 1;
+        flex: 1;
+        width: 120px;
+    }
+
+    .second-search {
+        position: absolute;
+        z-index: 10;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 7px;
+    }
+
+    .ad-layout-content {
+        padding: 34px 40px 0;
+        max-width:1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .second-header-back {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        list-style: none;
+    }
+
+    .back-button {
+        background-color: transparent;
+        font-family: AdihausDIN-Bold;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 20px;
+        text-decoration: underline;
+        text-transform: uppercase;
+
+
+        display: flex;
+        align-items: center;
+        border: none;
+        justify-content: flex-start;
+        width: auto;
+        padding-left: 4px;
+        margin-right: 11px;
+    }
+
+    .ad-heading {
+        margin-bottom: 30px;
+    }
+
+    .back-text {
+        transform: translateY(-1px);
+    }
+
+    .back-icon {
+        margin-right: 9px;
+    }
+
+    .ad-home {
+        font-family: AdihausDIN-Regular;
+        font-size: 16px;
+        font-weight:400;
+        text-decoration: underline;
+        transform:translateY(-2px);
+    }
+
+    .cross-line{
+        padding: 0px 5px;
+        font-family: AdihausDIN-Regular
+    }
+
+    .ad-under {
+        transform: translateY(-3px);
+    }
+
+    .ad-shoe-under {
+        padding: 0 1px;
+        font-family: AdihausDIN-Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .ad-filter-text {
+        display: block;
+    }
+    
+    .ad-filter {
+        display: flex;
+        border:1px solid #000;
+        padding: 0px 15px;
+        height:40px;
+        align-items: center;
+
+        font-family: AdihausDIN-Bold;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .ad-product {
+        padding: 0 40px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ad-footer-container {
+        padding:0 40px;
+        padding-bottom: 30px;
+
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ad-pagenation-next {
+        justify-content: end;
+    }
+
+    .ad-text-head {
+        font-size: 38px;
+    }
+
+    .ad-footer-heading {
+        font-size: 24px;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+
+    .sec-footer {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        list-style: none;
+        padding: 16px 64px;
+        background-color: #000000;
+        flex: 1;
+        max-width: 1152px;
+    }
+
+    .main-footer {
+        background-color: #000;
+    }
+
+    .sec-li-one {
+        padding-right: 15px;
+    }
+
+    .sec-head {
+        font-family: AdihausDIN-Bold;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding: 8px 24px 8px 0;
+        color: #fff;
+    }
+
+    .sec-text {
+        display: block;
+        font-family: AdihausDIN-Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 8px 24px 8px 0;
+        color: #fff;
+    }
+
+    .sec-li {
+        padding: 0 15px;
+    }
+
+
+    .ad-product-links {
+        margin-bottom: 60px;
+    }
+
+    .ad-back-to-button {
+        display: none;
+    }
+
+    .ad-legal-menu {
+        flex-wrap: nowrap;
+    }
+
+    .legal-menu-li {
+        border-right: 1px solid #eceff1;
+    }
+   
+    .ad-account-log {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width:1024px) {
+    .view-li {
+        flex-basis: calc((100% - 5 * 2px) / 6 * 1);
+    }
+
+    .ad-viewed-content {
+        gap: 8px;
+    }
+}
+
+@media screen and (min-width:1041px) {
+    .search-placeholder {
+        width: 198px;
+    }
+
+    
+}
+
+
+@media screen and (min-width:1120px) {
+    .second-header-back {
+        transform: translateX(0px);
+    }
+
+    .ad-items-li {
+        font-size: 14px;
+    }
+
+    .ad-items-li-one {
+        font-size: 14px;
+        letter-spacing: 1.87px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .ad-items-li-two {
+        color: #e32b2b;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        letter-spacing: 1.87px;
+        padding: 0 10px;
+        line-height: 16px;
+        font-family: AdihausDIN-Bold;
+    }
+
+    .second-header-container {
+        padding: 0 40px;
+    }
+
+    .ad-items {
+        justify-content: flex-end;
+    }
+
+    .bottom-nav {
+        grid-template-columns: 0.5fr 5fr 2fr;
+    }
+
+    .ad-content-text {
+        font-size: 40px;
+    }
+
+
+} 
+
+@media screen and (min-width:1310px) {
+    .ad-items {
+        justify-content: center;
+    }
+
+    .bottom-nav {
+        grid-template-columns: 1fr 5fr 2fr;
+    }
+
+
+}
+
